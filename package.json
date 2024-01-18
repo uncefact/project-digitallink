@@ -6,6 +6,8 @@
     "test": "test"
   },
   "scripts": {
+    "pre:install": "pnpm install && cp .env.example .env",
+    "dev": "nodemon packages/core/src/index.ts",
     "test": "cross-env NODE_ENV=test nodemon --exec 'jest'",
     "test:coverage": "NODE_ENV=test jest --coverage",
     "prettier": "prettier --write \"{packages,test,!build}/**/*.{ts,js,json,md,yml}\""

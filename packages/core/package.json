@@ -7,7 +7,6 @@
     "test": "test"
   },
   "scripts": {
-    "dev": "nodemon src/index.ts",
     "build": "tsc",
     "watch": "tsc -b --watch"
   },
