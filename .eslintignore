@@ -1,0 +1,6 @@
+coverage
+dist
+build
+node_modules
+tmp
+tools

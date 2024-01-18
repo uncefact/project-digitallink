@@ -1,0 +1,16 @@
+{
+  "name": "providers",
+  "version": "1.0.0",
+  "description": "provider project",
+  "main": "build/index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -b --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

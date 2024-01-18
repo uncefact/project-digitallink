@@ -1,0 +1,20 @@
+{
+  "version": "1.0.0",
+  "npmClient": "npm",
+  "changelog": {
+    "repo": "uncefact/project_digitallink",
+    "cacheDir": ".changelog"
+  },
+  "command": {
+    "publish": {
+      "allowBranch": [
+        "main",
+        "next"
+      ],
+      "conventionalCommits": true,
+      "gitRemote": "origin",
+      "message": "chore(release): %s [skip ci]"
+    }
+  },
+  "useWorkspaces": true
+}
