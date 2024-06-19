@@ -1,4 +1,4 @@
-# project-digitallink
+# project-identity-resolver
 Reference implementation of UNTP link resolver and credential store
 
 * Will implement [ISO-18975](https://www.iso.org/standard/85540.html)
